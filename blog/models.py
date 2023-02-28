@@ -27,7 +27,7 @@ class Post(models.Model):
                               default=Status.DRAFT)
 
     objects = models.Manager()
-    published = PublishedManager
+    published = PublishedManager()
 
     class Meta:
         ordering = ['-publish']
