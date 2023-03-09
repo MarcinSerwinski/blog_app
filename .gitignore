@@ -11,3 +11,5 @@ venv
 
 static/*
 staticfiles/*
+
+mysite_data.json
