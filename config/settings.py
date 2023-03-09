@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# noinspection PyPackageRequirements
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,6 +41,9 @@ INSTALLED_APPS = [
 
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+
+    # 3rd party apps:
+    'taggit',
 ]
 
 MIDDLEWARE = [
