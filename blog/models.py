@@ -4,6 +4,7 @@ from django.urls import reverse
 from config.settings import AUTH_USER_MODEL
 from taggit.managers import TaggableManager
 
+
 class PublishedManager(models.Manager):
 
     def get_queryset(self):
